@@ -1,0 +1,190 @@
+*{
+    border: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html
+{
+    background-color: aliceblue;
+}
+section
+{
+    margin: auto;
+    background-color:white;
+    width: 565px;
+    height: 580px;
+    margin: auto;
+    margin-top: 60px;
+    border: 2px solid white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 6px 2px 5px black;
+}
+.header
+{
+    width: 100%;
+    height: 70px;
+}
+img
+{
+    width: 100%;
+    height: 70px;
+}
+.title
+{
+    position: relative;
+    top: 20px;
+    margin-left: auto;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 10px;
+    font-family: "comic sans ms";
+    font-weight: bolder;
+    text-shadow: -2px  0px #575e86;
+    opacity: .2;
+    color: darkblue;
+}
+.inputbox
+{
+
+    width: 500px;
+    height: 280px;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    
+}
+input
+{
+    border: 2px solid rgba(128, 134, 167, 0.76);
+}
+.half
+{
+    width: 240px;
+    height: 40px;
+
+    margin-bottom: 20px;
+    text-indent: 10px;
+    font-family: "verdana";
+    font-size: 20px;
+}
+input[name='firstname']
+{
+    margin-right: 10px;   
+}
+.full
+{
+  
+    font-size: 20px;
+    width: 495px;
+    height: 40px;
+    margin-bottom: 20px;
+     text-indent: 30px;
+}
+input[name="country"]
+{
+    margin-bottom: 40px;
+}
+.btn
+{
+    background-color: darkgrey;
+    width: 70px;
+    height: 40px;
+    position: absolute;
+    text-align: center;
+    line-height: 40px;
+    top: 260px;
+    left: 425px;
+    cursor: pointer;
+}
+.agree
+{
+    position: relative;
+    top: 85px;
+    left: 40px;
+    font-family:cursive;
+    color: rgba(0, 0, 0, 0.65);
+}
+.agree span a
+{
+    color: deepskyblue;
+    text-decoration: none;
+}
+.join
+{
+    background-color: rgba(0, 0, 0, 0.65);
+    color: white;
+    width: 70px;
+    height: 50px;
+    position: relative;
+    top: 30px;
+    left: 220px;
+    border-radius: 10px;
+    font-size: 20px; 
+    cursor: pointer;
+}
+.line1
+{
+    position: absolute;
+    top: 590px;
+    left: 420px;
+    width: 150px;
+    height: 1px;
+   background-color: slategrey;
+}
+.line2
+{
+     position: absolute;
+    top: 590px;
+    left: 720px;
+    width: 150px;
+    height: 1px;
+   background-color: slategrey;
+}
+.otherreg
+{
+    position: relative;
+    top: 163px;
+    left: 290px;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: bolder;
+    color: grey;
+}
+.imgcontainer
+{
+    width: 500px;
+    position: relative;
+    top: 170px;
+    left: 100px;
+    height: 70px;
+    overflow: hidden;
+   
+}
+.reg1,.reg2,.reg3
+{
+    position: relative;
+    top: 15px;
+    left: 70px;
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 70px;
+    font-family: tahoma;
+    font-size: 12px;
+    color: dimgrey;
+}
+.reg1 img,.reg2 img,.reg3 img
+{
+    height: 30px;
+    cursor: pointer;
+}
+.paly-again
+{
+    background-color: blue;
+    color: white;
+    border: 20px solid darkblue;
+}
+

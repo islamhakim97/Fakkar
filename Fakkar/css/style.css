@@ -1,0 +1,68 @@
+* {box-sizing: border-box;}
+
+/*container*/
+.cont
+{
+    width: 600px;
+    padding: 30px 40px;
+    border-top: 4px solid red;
+    border-bottom: 4px solid red;
+    margin: 0px auto;
+    margin-top: 100px;
+    box-shadow: 10px 10px 40px black;
+}
+.font
+{
+    font-size: 30px;
+    color: #4d3092;
+    margin-right: 10px;
+}
+form>h2
+{
+    text-align: center;
+    font-family: "comic sans ms";
+    color:#d88913;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 30px;
+}
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}

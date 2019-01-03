@@ -1,0 +1,132 @@
+.cart-cont
+{
+    position: relative;
+    width: 90%;
+    min-height: 620px;
+    border: none;
+    margin: 0px auto;
+    transition: all 1s ease-in-out;
+}
+
+.cart-cont>.cart
+{
+    position: absolute;
+    top: 0px;
+    left: 380px;
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.cart-cont>.cart>.top,.cart-cont>.cart>.bottom
+{
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-color: #2b5797;
+    
+     
+}
+.cart-cont>.cart>.bottom
+{
+    height: 350px;
+    background-color: #2d89ef;
+    z-index: 1;
+    padding: 20px;
+    padding-top: 80px;
+    color: white;
+    font-size: 20px;
+    text-align: center;   
+}
+.cart-cont>.cart>.bottom>.name,.cart-cont>.cart>.bottom>.score,.cart-cont>.cart>.bottom>.using-helps
+{
+    width: 100%;
+    height: 70px;
+    margin: 0px auto;
+    background-color:#7e3878;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 50px;
+    padding: 5px 10px;
+    font-family: "Ravie","comic sans ms";
+    font-size: 15px;
+    overflow: hidden;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 5px 10px 34px white;
+}
+.cart-cont>.cart>.bottom>.score
+{
+    background-color: #603cba;
+}
+.cart-cont>.cart>.bottom>.using-helps
+{
+    background-color: #da532c;
+}
+.cart-cont>.cart>.top>.image
+{
+    position: absolute;
+    background-color: red;
+    
+    width: 200px ;
+    height: 200px;
+    left: 100px;
+    border-radius: 50%;
+    z-index: 33;
+     border: 2px solid black;
+}
+.cart-cont>.cart>.top>.image>img
+{
+    width: 195px;
+    height: 195px;
+    padding-top: 1px;
+    padding-left: 1px;
+    border-radius: 50%;
+}
+.play-again
+{
+    position: absolute;
+    left: 440px;
+    top: 520px;
+    width: 300px;
+    font-family: Ravie,"comic sans ms";
+    transition: all .5s linear;
+    font-size: 30px;
+}
+.play-again:hover
+{
+    text-shadow: 2px 2px 2px black;
+}
+
+.cart-cont:hover img
+{
+    transform: rotate(360deg);
+}
+.footer
+{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-family: "comic sans ms";
+    text-align: center;
+}
+.footer>a
+{
+    color: white;
+    text-decoration: underline;
+    font-family: "arial";
+}
+.footer>.me
+{
+    color: yellow;
+    font-family: "Viner Hand ITC",arial;
+}
+.footer>a:hover
+{
+    color: blue;
+    text-decoration: none;
+}

@@ -1,0 +1,456 @@
+.navbar-inverse
+{
+    background-color: #337ab7;
+}
+.navbar-inverse .navbar-nav > li > a
+{
+    color: white;
+}
+.navbar-inverse .navbar-nav > li > a:hover
+{
+    color: yellow;
+}
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus
+{
+   background-color:#2196f3;
+}
+/*
+ logo style
+*/
+.navbar-brand
+{
+    font-size: 35px;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand
+{
+    margin-left: 40px;
+    margin-right: 140px;
+}
+.navbar-inverse .navbar-brand {
+    color: yellow;
+    font-family: "Jokerman","Harlow Solid Italic",Ravie,"comic sans ms";
+    transition: all 1s ease-in-out;
+}
+.navbar-inverse .navbar-brand:hover {
+    color: white;
+}
+/*
+starts of options 
+*/
+.options
+{
+    width: 90%;
+    min-height: 100px;
+ 
+    margin: 0px auto;
+    margin-bottom: 50px;
+    position: relative;
+}
+/*start animation*/
+.animation
+{
+    width: 700px;
+    height: 100px;
+   
+    position: absolute;
+    left: 120px;
+    position: relative;
+}
+.animation>.polit
+{
+    display: inline-block;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    
+    animation-name: moving;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-timing-function: ease-in-out;
+    
+}
+.polit001
+{
+    
+}
+.polit002
+{
+    margin-left: 20px;
+    animation-delay: 1.2s;
+}
+.polit003
+{
+    margin-left: 40px;
+    animation-delay: 1s;
+}
+.polit004
+{
+    margin-left: 60px;
+    animation-delay: 0.8s;
+}
+.polit005
+{
+    margin-left: 80px;
+    animation-delay: 0.6s;
+}
+.polit006
+{
+    margin-left: 100px;
+    animation-delay: 0.4s;
+}
+.polit007
+{
+    margin-left: 120px;
+    animation-delay: 0.2s;
+}
+.polit008
+{
+    margin-left: 140px;
+    animation-delay: 0s;
+}
+
+@keyframes moving
+{
+    0%
+    {
+       opacity: 1;
+       transform: translateX(0px);
+    }
+    100%
+    {
+       opacity: .2;
+       transform: translateX(160px);   
+    }
+}
+.timer
+{
+    background-color: red;
+    color: white;
+    width: 70px;
+    height: 50px;
+    border-radius: 20px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Agency FB","comic sans ms";
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+/*start of the dropdown menu*/
+/* Dropdown Button */
+.dropbtn {
+    background-color: #808000;
+    color: white;
+    padding: 16px;
+    font-size: 25px;
+    border: none;
+    border-radius: 20px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.ourmenu1,.ourmenu2
+{
+    position: absolute;
+    top: 15px;
+    left: 980px;
+}
+.ourmenu2
+{
+    left: 850px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+/*
+styling the container of the question
+*/
+*
+{
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.question-answer-container
+{
+    width: 80%;
+    min-height:450px;
+    
+    margin: 0px auto;
+    margin-bottom: 100px;
+    
+}
+.question-container
+{
+    position: relative;
+    width: 90%;
+    height: 150px;
+    
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+.question-container>.question
+{
+    width: 95%;
+    height: 100%;
+    background-color: 	#2699a9;
+    margin: 0px auto;
+    border-radius: 20px ;
+    box-shadow:  5px 5px 5px red;
+    padding: 20px;
+    text-align: center;
+    direction: rtl;
+    font-size: 35px;
+    font-family: "Andalus","Courier New";
+     color: white;
+    
+    
+}
+.question-answer-container>.answer-container
+{
+   
+    width: 900px;
+    min-height: 230px;
+    margin: 0px auto;
+    
+   
+}
+/*start of the design answer*/
+.btn {
+    
+    padding: 20px 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.question-answer-container>.answer-container>.help
+{
+   
+    height: 55px;
+    width: 100%;
+    margin: 0px auto;
+    
+    margin-top: 30px;
+    
+}
+.type-of-help,.help-counter
+{
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    min-width: 150px;
+    direction: rtl;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+    line-height: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 20px;
+    margin: 0px;
+    
+}
+.help-counter
+{
+  
+    
+    background-color: red;
+    color: white;
+    min-width: 50px;
+    height: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    position: absolute;
+    top: 0px;
+}
+.help-item
+{
+    width: 205px;
+    height: 50px;
+    
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 70px;
+    
+}
+/*cart container*/
+.cart-cont
+{
+    position: relative;
+    width: 90%;
+    min-height: 620px;
+    border: none;
+    margin: 0px auto;
+    transition: all 1s ease-in-out;
+}
+
+.cart-cont>.cart
+{
+    position: absolute;
+    top: 0px;
+    left: 380px;
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.cart-cont>.cart>.top,.cart-cont>.cart>.bottom
+{
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-color: #2b5797;
+    
+     
+}
+.cart-cont>.cart>.bottom
+{
+    height: 350px;
+    background-color: #2d89ef;
+    z-index: 1;
+    padding: 20px;
+    padding-top: 80px;
+    color: white;
+    font-size: 20px;
+    text-align: center;   
+}
+.cart-cont>.cart>.bottom>.name,.cart-cont>.cart>.bottom>.score,.cart-cont>.cart>.bottom>.using-helps
+{
+    width: 100%;
+    height: 70px;
+    margin: 0px auto;
+    background-color:#7e3878;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 50px;
+    padding: 5px 10px;
+    font-family: "Ravie","comic sans ms";
+    font-size: 15px;
+    overflow: hidden;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 5px 10px 34px white;
+}
+.cart-cont>.cart>.bottom>.score
+{
+    background-color: #603cba;
+}
+.cart-cont>.cart>.bottom>.using-helps
+{
+    background-color: #da532c;
+}
+.cart-cont>.cart>.top>.image
+{
+    position: absolute;
+    background-color: red;
+    
+    width: 200px ;
+    height: 200px;
+    left: 100px;
+    border-radius: 50%;
+    z-index: 33;
+     border: 2px solid black;
+}
+.cart-cont>.cart>.top>.image>img
+{
+    width: 195px;
+    height: 195px;
+    padding-top: 1px;
+    padding-left: 1px;
+    border-radius: 50%;
+}
+.play-again
+{
+    position: absolute;
+    left: 440px;
+    top: 520px;
+    width: 300px;
+    font-family: Ravie,"comic sans ms";
+    transition: all .5s linear;
+    font-size: 30px;
+    /*background-color: blue;*/
+    color: white;
+   /* text-align: center;*/
+    /*border: 2px solid darkblue;*/
+    outline: none;
+}
+.play-again:hover
+{
+    text-shadow: 2px 2px 2px black;
+}
+
+.cart-cont:hover img
+{
+    transform: rotate(360deg);
+}
+.footer
+{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-family: "comic sans ms";
+    text-align: center;
+}
+.footer>a
+{
+    color: white;
+    text-decoration: underline;
+    font-family: "arial";
+}
+.footer>.me
+{
+    color: yellow;
+    font-family: "Viner Hand ITC",arial;
+}
+.footer>a:hover
+{
+    color: blue;
+    text-decoration: none;
+}
